@@ -1,5 +1,9 @@
 # day2
 Document DB NoSQL (MongoDB)
+
+- [Riferimeto per iniziare](https://gabrielecorni.github.io/articles/mongodb-notes)
+- [Doc query completa](https://docs.mongodb.com/manual/reference/operator/query/)
+
 ---
 
 ## 1) Senza Docker
