@@ -37,3 +37,9 @@ Document DB NoSQL (MongoDB)
     - `db.pizzas.find().count()`
   - `exit`
 - `docker-compose down`
+
+## 3) Via web
+
+- andare su [https://mongoplayground.net/](https://mongoplayground.net/)
+- inserire qualche dato
+- sperimentare
