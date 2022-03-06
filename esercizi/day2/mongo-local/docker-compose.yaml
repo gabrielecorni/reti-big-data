@@ -1,0 +1,20 @@
+version: '2.1'
+
+services:
+  mongo1:
+    image: mongo:latest
+    restart: always
+    hostname: mongo1
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo-data-backup:/data/db
+
+  mongoclient1:
+    image: huggingface/mongoku
+    restart: always
+    hostname: mongoclient1
+    ports:
+      - 3100:3100
+    environment:
+      MONGOKU_DEFAULT_HOST: mongo1:27017
