@@ -9,6 +9,8 @@
 
 ### run environment
 ```bash
+cd kafka-local
+
 docker-compose up -d  # avvio
 docker ps -a          # verifica container in esecuzione
 docker-compose down   # spegnimento
